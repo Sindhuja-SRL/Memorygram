@@ -15,10 +15,6 @@ import { signup } from "./controllers/auth.js";
 import { createPost } from "./controllers/posts.js";
 import { verifyToken } from "./middleware/auth.js";
 
-import UserInfo from "./models/UserInfo.js";
-import Post from "./models/Post.js";
-import { users, posts } from "./data/index.js";
-
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url);
